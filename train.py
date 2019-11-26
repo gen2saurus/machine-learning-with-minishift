@@ -37,7 +37,7 @@ def start():
 
     # convert class vectors to binary class matrices
     y_train = keras.utils.to_categorical(y_train, num_classes)
-    y_test = keras.utils.to_categorical(y_test, num_classes
+    y_test = keras.utils.to_categorical(y_test, num_classes)
 
     model = Sequential()
     model.add(Conv2D(32, kernel_size=(3, 3),
